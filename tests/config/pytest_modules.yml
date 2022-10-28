@@ -1798,6 +1798,10 @@ mlst:
   - modules/nf-core/mlst/**
   - tests/modules/nf-core/mlst/**
 
+mmseqs2/tsv2exprofiledb:
+  - modules/nf-core/mmseqs2/tsv2exprofiledb/**
+  - tests/modules/nf-core/mmseqs2/tsv2exprofiledb/**
+
 mobsuite/recon:
   - modules/nf-core/mobsuite/recon/**
   - tests/modules/nf-core/mobsuite/recon/**

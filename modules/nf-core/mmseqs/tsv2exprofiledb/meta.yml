@@ -1,0 +1,30 @@
+name: mmseqs_tsv2exprofiledb
+description:
+keywords:
+  - protein prediction
+  - DBs
+tools:
+  - "MMseqs2":
+      description: "MMseqs2: ultra fast and sensitive sequence search and clustering suite"
+      homepage: "None"
+      documentation: "None"
+      tool_dev_url: "None"
+      doi: ""
+      licence: "['GPL v3']"
+
+input:
+  - db:
+      type: directory
+      description: Profile database
+
+output:
+  - db:
+      type: directory
+      description: Profile database converted to the MMseqs databases format
+  - versions:
+      type: file
+      description: File containing software versions
+      pattern: "versions.yml"
+
+authors:
+  - "@JoseEspinosa"
